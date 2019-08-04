@@ -1,0 +1,22 @@
+.film {
+    position: relative;
+    width: 100%;
+}
+
+.film a {
+    height: 90%;
+}
+
+.film a .nameMovies {
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ccc;
+    text-align: center;
+    display: none;
+}
+
+.film:hover .nameMovies {
+    display: block;
+}
